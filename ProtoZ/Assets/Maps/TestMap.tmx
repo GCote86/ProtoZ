@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="treetop" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/treetop.png" trans="ff0000" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="43" name="trunk" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/trunk.png" trans="ff0000" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="61" name="victoria" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/victoria.png" trans="ff0000" width="352" height="160"/>
+ </tileset>
+ <tileset firstgid="116" name="water" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/water.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="134" name="waterfall" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/waterfall.png" trans="ff0000" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="149" name="watergrass" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/watergrass.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="167" name="barrel" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/barrel.png" trans="ff0000" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="175" name="brackish" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/brackish.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="193" name="bridges" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/bridges.png" trans="ff0000" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="235" name="buckets" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/buckets.png" trans="ff0000" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="241" name="cabinets" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/cabinets.png" trans="ff0000" width="192" height="416"/>
+ </tileset>
+ <tileset firstgid="319" name="castle_lightsources" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/castle_lightsources.png" trans="ff0000" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="339" name="castle_outside" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/castle_outside.png" trans="ff0000" width="544" height="352"/>
+ </tileset>
+ <tileset firstgid="526" name="castlefloors" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/castlefloors.png" trans="ff0000" width="320" height="320"/>
+  <terraintypes>
+   <terrain name="New Terrain" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <tileset firstgid="626" name="castlefloors_outside" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/castlefloors_outside.png" trans="ff0000" width="128" height="160"/>
+ </tileset>
+ <tileset firstgid="646" name="castlewalls" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/castlewalls.png" trans="ff0000" width="384" height="480"/>
+ </tileset>
+ <tileset firstgid="826" name="cement" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/cement.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="844" name="cementstair" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/cementstair.png" trans="ff0000" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="864" name="chests" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/chests.png" trans="ff0000" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="870" name="country" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/country.png" trans="ff0000" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="890" name="cup" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/cup.png" trans="ff0000" width="32" height="64"/>
+ </tileset>
+ <tileset firstgid="892" name="dirt" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/dirt.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="910" name="dirt2" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/dirt2.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="928" name="dungeon" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/dungeon.png" trans="ff0000" width="416" height="256"/>
+ </tileset>
+ <tileset firstgid="1032" name="grass" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/grass.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1050" name="grassalt" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/grassalt.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1068" name="hole" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/hole.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1086" name="holek" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/holek.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1104" name="holemid" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/holemid.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1122" name="house" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/house.png" trans="ff0000" width="288" height="224"/>
+ </tileset>
+ <tileset firstgid="1185" name="inside" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/inside.png" trans="ff0000" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="1285" name="kitchen" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/kitchen.png" trans="ff0000" width="64" height="128"/>
+ </tileset>
+ <tileset firstgid="1293" name="lava" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/lava.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1311" name="lavarock" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/lavarock.png" trans="ff0000" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="1329" name="mountains" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/mountains.png" trans="ff0000" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="1437" name="Red" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/Red.png" trans="ff0000" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="1438" name="rock" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/rock.png" trans="ff0000" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="1440" name="signs" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/signs.png" trans="ff0000" width="96" height="64"/>
+ </tileset>
+ <tileset firstgid="1446" name="stairs" tilewidth="32" tileheight="32">
+  <image source="../../LPC Base Assets/tiles/stairs.png" trans="ff0000" width="256" height="448"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzj0KwkAQhuHd9by2KSJYWth4gKBYRQVR8Kc1sfUvSavYegBP4Ls4wSWJQmpTPExmMvOxoVFqgilmCAv9RSRIRebM3d22VmpFXWODrSn3VwT6c58LKm67zHbUCDH2ptw/0GfvRh1SR7jLrLg7YHagHnHC2ZT7p7zF5i2oS8kLKm7HzHqt73x2PMwlL6LGkmdn9p/d+ZVRlWcl3KfI9Ps7n3dq5OX7vsNz+DXf12g0/ssLa5LnTw==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztjzsOgkAURQfCivwuzGT4LkRdgIp2fho1flqBHai1jboD9RLfJK/AyQiNhTc5CcKZk3FgCzEEIxADta4lRA/0LfFxRc4UjRmYgwXrxXDGYKLpFTkbNLZgB/ast4SzAmvmXuw3OueA7wlIQcbcBE4KMs39TBy1I5wTOGtcE0ftCucG7hrXxFF7wHnmnl3N4XPhRYQHOvQcEgG9M13Ezvt0Nm+41A/p2XR5Q9JZn/Co4bKu6VRHsjt6hKTf4Re9fAG7n0vnJfvfZeaxjrqbLNnSreYIUWc0nGq9Js63GO1/7+d6L9DZTuM=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxbxsTAsByIVwDxSiCmFGwCmrEZiLcA8VYqmLcPaMZ+ID4AxAepYN4poBmngfgMEJ+lgnnDBcgBw0IeihWoEC4aQDM0oVhr1DySgRHQDGMoNhlNp6OAzmAeKybGBgAjHhLw
+  </data>
+ </layer>
+ <layer name="Collision" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgw0kM6PSo2D4AR0qmmUIxEZAbEwl88yB2AKILalk3igYvgAAE2MCNw==
+  </data>
+ </layer>
+ <layer name="treetop" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2B4AWEgFgFiUSqZJwnEUkAsTSXz5IFYAYgVqWTeKBgFAwUAzvYA6w==
+  </data>
+ </layer>
+ <layer name="Red" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhZYC4rbkyOGfjU4FKLLkaIxiVHrDmU+AGb+dQCo+ZRzzxqmE2pGZTkKWLcM2oe/cwjpowE8QH3bynF
+  </data>
+ </layer>
+</map>
